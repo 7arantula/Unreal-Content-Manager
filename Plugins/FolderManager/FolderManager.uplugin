@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Your Personal Folder Manager",
+	"Description": "Creates organized folder structures for assets",
+	"Category": "Editor",
+	"CreatedBy": "Arya",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FolderManager",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
