@@ -15,7 +15,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "UnrealContentManager",
+			"Name": "FolderManager",
 			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
