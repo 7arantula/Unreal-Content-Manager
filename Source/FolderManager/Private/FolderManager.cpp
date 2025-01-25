@@ -99,9 +99,9 @@ void FFolderManagerModule::CreateAssetFolders()
         FPaths::NormalizeDirectoryName(FullPathOnDisk);
         PlatformFile.CreateDirectoryTree(*FullPathOnDisk);
     }
-
-    FMessageDialog::Open(EAppMsgType::Ok, 
-        FText::Format(LOCTEXT("FoldersCreated", "Created folders inside > {0}"), 
+    
+    FMessageDialog::Open(EAppMsgCategory::Success,EAppMsgType::Ok, 
+        FText::Format(LOCTEXT("FoldersCreated", "Folder Created > {0}"), 
         FText::FromString(BasePath)));
 }
 
