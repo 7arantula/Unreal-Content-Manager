@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "Your Personal Folder Manager",
+	"FriendlyName": "UE Manager",
 	"Description": "Creates organized folder structures for assets",
 	"Category": "Editor",
 	"CreatedBy": "Arya",
@@ -15,7 +15,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "FolderManager",
+			"Name": "UnrealContentManager",
 			"Type": "Editor",
 			"LoadingPhase": "Default"
 		}
